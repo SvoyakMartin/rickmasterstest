@@ -1,4 +1,4 @@
-package ru.svoyakmartin.rickmasterstest
+package ru.svoyakmartin.rickmasterstest.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
