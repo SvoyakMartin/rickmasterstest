@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'realm-android'
+    id "org.jetbrains.kotlin.plugin.serialization" version "1.8.10"
 }
 
 android {
@@ -72,4 +74,8 @@ dependencies {
     // Dagger
     implementation "com.google.dagger:dagger:2.44"
     kapt "com.google.dagger:dagger-compiler:2.44"
+
+//    // Realm
+//    implementation "io.realm:realm-kotlin-android:$realm_version"
+//    implementation 'io.realm:realm-gradle-plugin:$realm_version"'
 }
